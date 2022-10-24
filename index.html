@@ -50,13 +50,13 @@
                 BODY.style['transform'] = `translate(${
                     window.innerWidth  / 2 + (x - window.innerWidth  / 2) / 25 - BODY.offsetWidth  / 2 + "px"
                 }, ${
-                    window.innerHeight / 2 + heightScale * (y - window.innerHeight / 2) / 25 - BODY.offsetHeight / 2 + bobbingHeight + "px"
+                    window.innerHeight / 2 + heightScale * (y - window.innerHeight / 2) / 25 - BODY.offsetHeight / 2 + "px"
                 })`;
 
                 EYES.style['transform'] = `translate(${
                     window.innerWidth  / 2 + (x - window.innerWidth  / 2) / 22 - BODY.offsetWidth  / 2 + "px"
                 }, ${
-                    window.innerHeight / 2 + heightScale * (y - window.innerHeight / 2) / 22 - BODY.offsetHeight / 2 + bobbingHeight + "px"
+                    window.innerHeight / 2 + heightScale * (y - window.innerHeight / 2) / 22 - BODY.offsetHeight / 2 + "px"
                 })`;
             }
             setInterval(update, 1.0 / 240.0);
